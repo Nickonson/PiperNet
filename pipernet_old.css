@@ -1,0 +1,46 @@
+@font-face{
+    font-family: Roboto, serif;
+    src: local("Roboto-Regular"),
+        url(Roboto-Regular.ttf) format('ttf');
+}
+
+
+
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-image: url(header.png);
+    width: 2011px;
+    height: 84px;
+
+    
+}
+
+.company_icon{
+    margin: auto;
+    display: block;
+    position: relative;
+    
+    top: 10px;
+    right: 320px;
+    width: 184px;
+    height: 45px;
+  
+}
+
+.header_content{
+   
+    position: relative;
+    text-align: center;
+
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px;
+    
+    line-height: 28,13px;
+   
+    word-spacing: 8px;
+
+}
+
